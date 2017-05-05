@@ -1,0 +1,144 @@
+/*========= Universals Section =========*/
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/*======= HEADER SECTION BEGINS ========*/
+
+header {
+    background-color:#fcfcfc;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header img {
+    max-height:50px;
+}
+
+nav {
+    float: right;
+    position: relative;
+    height:100%;
+    top: 0;
+/*    bottom: 20px;*/
+/*    left: 10px;*/
+/*    right: 50px;*/
+}
+
+nav>ul {
+    list-style-type: none;
+    height: 100%;
+}
+
+nav>ul>li {
+    display: inline;
+    margin: 0 10px;
+    padding: 10px;
+    height: 100%;
+}
+
+nav>ul>li>a {
+    color: #ff9449;
+    text-decoration: none;
+}
+
+nav>ul>li:hover {
+    background-color: #ff9449;   
+    cursor: pointer;
+}
+
+nav>ul>li:hover a {
+    color: #fff;   
+}
+
+/*========== HERO SECTION BEGINS ==========*/
+
+.hero {
+     background-image: url("../img/img2.jpg");
+     background-size: cover;
+     background-position: center;
+     height: 200px;
+     padding-top: 100px;
+}
+
+.hero>h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+}
+
+/*==============SECTION ENDS ==============*/
+
+/*========== SIDEBAR SECTION BEGINS ==========*/
+
+aside{
+    background-color: #fcfcfc;  
+    border: 2px solid #fff;
+    width: 30%;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+
+aside>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside>ul>li {
+    text-align:center;
+    padding: 30px 0;
+}
+
+aside>ul>li:hover {
+    background-color: #ff9449;
+}
+
+aside>ul>li:hover a {
+    color: #fff;
+    font-weight: 700;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #ff9449;
+}
+
+/*===========MAIN ARTICLE BEGINS HERE=========*/
+
+main {
+    float: right;
+    height:400px;
+    width: 70%;
+    padding:0 20px;
+    box-sizing: border-box;
+}
+
+/*==========FOOTER BEGINS HERE==========*/
+
+footer {
+    height: 100px;
+    background-color: #ff9449;
+    clear: both;
+}
+
+.social-media {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 30px;
+    font-size: 36px;
+}

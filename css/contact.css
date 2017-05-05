@@ -1,0 +1,30 @@
+/*======= CONTACT FORM SECTION =========*/
+
+section {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.contact-form-wrapper {
+    margin-top: 5%;
+}
+
+.contact-form-wrapper iframe {
+    width: 90%;
+    height: 550px;
+    margin: 0 auto;
+    display: block;
+}
+
+.map-wrapper {
+    margin-top: 7%;
+}
+
+.map-wrapper iframe {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+    
+}
